@@ -1,4 +1,4 @@
-# AliFood 🍔
+# AliFood
 
 AliFood is a modern food ordering application featuring a React frontend and an Express backend.
 
@@ -12,6 +12,15 @@ AliFood is a modern food ordering application featuring a React frontend and an 
 ## Getting Started
 
 Follow these instructions to get the project up and running on your local machine.
+
+### Cloning the Repository
+
+First, clone the repository using git:
+
+```bash
+git clone https://github.com/Houcineee/AliFood.git
+cd AliFood
+```
 
 ### Prerequisites
 
