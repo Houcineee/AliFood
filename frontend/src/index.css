@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-terracotta: #C16E55;
+  --color-cream: #FDFBF7;
+  --color-olive: #2D3A30;
+  --color-gold: #D4AF37;
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Lato", sans-serif;
+}
+
+:root {
+  background-color: var(--color-cream);
+  color: var(--color-olive);
+}
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
